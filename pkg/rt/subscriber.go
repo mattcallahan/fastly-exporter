@@ -267,7 +267,6 @@ func (s *Subscriber) queryOrigins(ctx context.Context, ts uint64) (currentName s
 	}
 
 	return name, result, delay, response.Timestamp, nil
-
 }
 
 //
